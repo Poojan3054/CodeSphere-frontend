@@ -100,6 +100,7 @@ const Register = () => {
                   onClick={() => setShowPassword(!showPassword)}
                   tabIndex={-1}
                 >
+                    {/* kanji */}
                   <FontAwesomeIcon icon={showPassword ? faEyeSlash : faEye} />
                 </button>
               </div>
